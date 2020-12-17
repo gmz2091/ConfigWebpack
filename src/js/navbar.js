@@ -1,12 +1,7 @@
-const navbar = document.createElement("navbar");
-function navbarHTMK() {
-  navbar.innerHTML = `
-<div>
-    <p>Inicio</p>
-</div>
 
-`;
+  const text = document.createElement("p");
 
-  document.appendChild(navbar);
-}
-export default navbarHTMK;
+  text.textContent = "Hola Mundo desde Navbar";
+
+
+export default text;
